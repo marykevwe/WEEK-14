@@ -1,11 +1,15 @@
+// Footer.js
+
 import React from 'react';
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer>
-      <p>&copy; 2023 Your Company</p>
+    <>
+    <footer className="bg-gray-800 text-white p-4 text-center">
+      <p>&copy; 2023 MaryKTech Solutions. All rights reserved.</p>
     </footer>
+    </>
   );
-};
+}
 
 export default Footer;
