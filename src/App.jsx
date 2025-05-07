@@ -1,18 +1,24 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Body from './components/Body'
-import Sidebar from './Components/Sidebar'
-import Footer from './Components/Footer'
+import React from 'react';
+import Header from './components/Header';
+import IllnessesSection from './components/IllnessSection';
+import ProductDetailsSection from './components/ProductDetailsSection';
+import TestimonialSection from './components/TestimonialSection';
+import OrderFormSection from './components/OrderFormSection';
+import Footer from './Components/Footer';
+import DiseasesSection from './components/DiseasesSection';
 
 function App() {
   return (
-    <>
-    <Navbar/>
-      <Sidebar />
-      <Body/>
+    <div>
+      <Header/>
+      <IllnessesSection/>
+      <DiseasesSection/>
+      <ProductDetailsSection/>
+      <TestimonialSection/>
+      <OrderFormSection/>
       <Footer/>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
